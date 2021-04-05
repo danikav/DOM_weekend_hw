@@ -14,10 +14,12 @@ h1 {
 ul {
     text-align: center;
     list-style-type: none;
+    color: whitesmoke;
 }
 
 form {
-    text-align: center
+    text-align: center;
+    color: whitesmoke
 }
 
 button {
