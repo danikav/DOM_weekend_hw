@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon List</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <h1>Pokemon List</h1>
+    <ul id="pokemon-list"></ul>
+
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="name" class="primary">Name</label>
+          <input type="text" id="name" required/>
+        </div>
+        
+        <div class="form-item">
+          <label for="type" class="primary">Type</label>
+          <input type="text" id="type" required/>
+        </div>
+
+      </div>
+      <input type="submit" value="Save"/>
+    </form>
+
+    <button id="delete-all">Delete All</button>
+
+  </body>
+</html>
