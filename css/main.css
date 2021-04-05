@@ -1,10 +1,14 @@
 body {
     background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    background-image: url(../css/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h1 {
     text-align: center;
-    color: whitesmoke
+    color: whitesmoke;
+    text-decoration: underline;
 }
 
 ul {
